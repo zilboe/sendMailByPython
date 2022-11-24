@@ -9,8 +9,8 @@ import re
 def sendMail(mail_content,recv_address):
     # param mail_content 邮件内容
     # param recv_address 接收邮箱
-    sender_address = 'zilboe1106@gmail.com'
-    sender_pass = 'odoedkqkinfgqsow'
+    sender_address = 'xxxx@gmail.com' # 邮箱账号
+    sender_pass = 'xxxxxxxxxxxxxxxx'    #密码
     message = MIMEMultipart()
     message['From'] = sender_address
     message['To'] = recv_address
@@ -24,8 +24,8 @@ def sendMail(mail_content,recv_address):
     print("send {} successfully".format(recv_address))
     session.quit()
 
-api_id = 23104662
-api_hash = 'c1ff323991616a62462ea9cfe5e7fc05'
+api_id = xxxxxxxx # api_id
+api_hash = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' # api_hash
 # 登陆client
 client = TelegramClient('session_name',api_id,api_hash)
 client.start()
