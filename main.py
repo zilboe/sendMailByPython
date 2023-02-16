@@ -30,7 +30,7 @@ api_hash = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' # api_hash
 client = TelegramClient('session_name',api_id,api_hash)
 client.start()
 # 向机器人发送/get
-client.send_message('@freenodeshare_bot','/get')
+client.send_message('xxx','xxx')
 # 延迟等待回复
 time.sleep(5)
 # 读取id.txt文件,取出所有邮箱
